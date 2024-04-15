@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container-color{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+    background-color: #F5FCFF;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px
+}
+
+.nav-links li{
+    list-style: none;
+
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav-links h3{
+    padding: 0 25px;
+}
+
+.left-column{
+    grid-column: 1;
+    margin-left: 2%;
+}
+
+.sideText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.aboutmeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20%;
+    margin-right: 5%;
+}
+
+.blue{
+    color: blue;
+}
+
+#get-in-touch-button{
+    align-items: start;
+}
+
+button{
+    padding: 0%;
+    border: 0px;
+    background-color: #F5FCFF;
+}
+
+.button{
+    width: 170px;
+    height: 90px;
+    padding: 0%;
+}
+
+.right-column{
+    grid-column: 2;
+}
+
+.interlude{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.grid-container-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.column-1{
+    grid-column: 1;
+}
+
+.column-2{
+    grid-column: 2;
+}
+
+.column-3{
+    grid-column: 3;
+}
+
+.column-4{
+    grid-column: 4;
+}
+
+.box {
+    background-color: #F5FCFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.separation-margin{
+    margin-top: 10%;
+}
+
+#aboutmepicture{
+    margin-left: 10%;
+    width: 500px;
+    height: auto;
+}
+
+.logoipsum{
+    width: 180px;
+    height: auto;
+}
+
+#guySmiling{
+    height: 700px;
+    width: auto;
+}
+
+.interlude-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+}
+
+.interlude-left-column{
+    grid-column: 1;
+    margin-left: 5%;
+}
+
+.interlude-right-column{
+    grid-column: 2;
+    justify-self: end;
+    margin-top: 5%;
+}
+
+.grid-container-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-with-shadow {
+    border-radius: 10px;
+    margin: 12.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-with-border {
+    border-radius: 10px;
+    margin: 12.5%;
+    border: 1px solid green;
+    padding: 5%;
+}
+
+.text-inside-box{
+    padding: 2%;
+}
+
+.grid-container-3-images{
+    height: auto;
+    width: 365px;
+}
+
+.viewInDribbleImage{
+    width: 100px;
+    height: auto;
+}
+
+.background{
+    background-color: #F5FCFF;
+}
+
+.profileImages{
+    width: 20%;
+    height: auto;
+}
+
+.profile img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; 
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    background-color: #F5FCFF;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.footer-links h3{
+    padding: 0 25px;
+}
+
+.company-logo{
+    width: 35px;
+    height: auto;
+}
+
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #F5FCFF;
+    border-top: 1px solid gray;
+}
+
+.footer2-links{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 60%;
+}
+
+.footer2-links p{
+    margin-right: 3%;
+}
+
+.contact{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 1%;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-row > * {
+    margin-right: 3%;
+}
+
+.form-row > *:last-child {
+    margin-right: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#submitButton{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+input[type="checkbox"] {
+    margin-right: 3%;
+}
+
+
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    #guySmiling{
+        display: none;
+    }
+
+    .grid-container-4,
+    .interlude-grid,
+    .grid-container,
+    .grid-container-3,
+    .grid-container-color {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 20px
+    }
+
+    .column-1,  
+    .column-2,
+    .column-3,
+    .column-4,
+    .right-column,
+    .left-column,
+    .interlude-right-column,
+    .interlude-left-column {
+        width: 70%;
+    }
+
+    #aboutmepicture{
+        height: auto;
+        width: 150px;
+    }
+
+    .grid-container-3-images{
+        height: auto;
+        width: 100%;
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #submitButton{
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    .footer-links h3 {
+        margin: 2% 10%;
+    }
+
+    .footer-logos{
+        flex-direction: row;
+    }
+
+    .company-logo{
+        width: 45px;
+        margin: 2px;
+    }
+
+    .footer2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer2-links {
+        margin-top: 5%;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .contact p{
+        font-size: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border: 1px solid purple;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+}
